@@ -1,0 +1,30 @@
+Package: LFJM
+Type: Package
+Title: Longitudinal Functional Joint Models
+Version: 1.0.0
+Authors@R: person(
+    "Ufuk", "Beyaztas",
+    email = "ufukbeyaztas@gmail.com",
+    role = c("aut", "cre", "cph"),
+    comment = c(ORCID = "0000-0002-5208-4950")
+  )
+Description: Functions for fitting longitudinal functional joint models when
+    a functional predictor is observed repeatedly together with a scalar
+    longitudinal response and a time-to-event outcome. The package uses
+    weighted-grid longitudinal functional principal component analysis to
+    separate persistent between-subject variation from visit-specific
+    within-subject variation, and estimates the resulting shared-current-value
+    joint model by adjusted profile h-likelihood. It provides tools for model
+    fitting, control specification, prediction, fitted values, residuals,
+    coefficient and covariance extraction, summaries, visualization, and
+    simulation-based data generation.
+Depends: R (>= 3.5.0)
+Imports:
+    graphics,
+    MASS,
+    stats,
+    survival,
+    tools
+License: GPL-3
+Encoding: UTF-8
+ByteCompile: true
