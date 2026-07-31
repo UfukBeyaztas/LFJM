@@ -312,33 +312,6 @@ help(package = "LFJM")
 ?simulate_lfjm
 ```
 
-## Current model scope
-
-Version 1.0.0 implements:
-
-- a repeatedly observed functional predictor on a common grid;
-- a Gaussian scalar longitudinal outcome;
-- separate between- and within-subject functional effects;
-- a subject-specific random intercept;
-- a Weibull proportional-hazards survival submodel;
-- a shared current-value association;
-- one scalar longitudinal covariate and one scalar survival covariate; and
-- conditional Stage-2 standard errors based on the numerical APHL Hessian.
-
-Uncertainty from the estimated Stage-1 mean surface, eigensystems, and scores
-is not propagated into the reported Stage-2 covariance matrix.
-
-## Citation
-
-To obtain the package citation in R, use:
-
-```r
-citation("LFJM")
-```
-
-When using the methodology in scientific work, please also cite the
-accompanying methodological paper.
-
 ## License
 
 `LFJM` is released under the
@@ -348,7 +321,6 @@ accompanying methodological paper.
 
 Ufuk Beyaztas  
 Email: [ufukbeyaztas@gmail.com](mailto:ufukbeyaztas@gmail.com)  
-ORCID: [0000-0002-5208-4950](https://orcid.org/0000-0002-5208-4950)
 
 Questions and bug reports can be submitted through the
 [GitHub issue tracker](https://github.com/UfukBeyaztas/LFJM/issues).
